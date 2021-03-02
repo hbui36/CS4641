@@ -21,15 +21,7 @@ Many communites in Africa are regularly impacted by movements of certain wildlif
 
 ### Methods
 
-- Use of African wildlife data set
-- Unsupervised learning - given an unkown object (no label)
-  - Object detection
-  - Object segmentation
-  - Clustering similar images together
-  - Distance Estimation
-- Supervised learning - identify what type of animal is in the image
-  - Neural network - VGG(neural network framework), darknet YOLO v4 - Feed image in, convert image to matrix and try to find patterns, output animal classification
-- Probably start with just classification, and then consider moving forward
+The main approach is object detection applied to wildlife images[1](http://www.eng.auburn.edu/~troppel/internal/sparc/TourBot/TourBot%20References/Haar/2000186.pdf). The project plan to use datasets including 1500-image Kaggle data set from Google search[4](https://www.kaggle.com/biancaferreira/african-wildlife) and a research dataset from camera traps[2](https://doi.org/10.1038/sdata.2015.26). The Kaggle dataset is pre-labeled with corresponding animal type and coordinates which means it is ready to be trained with supervised learning. The supervised learning algorithm deep neural network with frameworks such as VGG and pre-trained Darknet YOLO v4 model will be implemented and parameters will be adjusted based on features and performance. The research dataset likely requires a prior step like classification algorithm such as KMeans for localizing and segmenting animals from the images and then cluster similar animals together. Because of the visual similarity of animals, colour, patterns and size are all relevant useful features. Therefore, images will be pre-processed to extract features all of them and convert to a consistent format.
 
 ### Potential Results
 
