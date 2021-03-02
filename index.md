@@ -2,13 +2,13 @@
 
 ### Introduction
 
-Many communites in Africa are regularly impacted by movements of certain wildlife populations. We propose that a machine learning model could be used in coordination with motion-activated camera traps to identify movements of certain wildlife populations and understand when these populations might pose a risk to these communities[2](https://doi.org/10.1038/sdata.2015.26).
+Many communites in Africa are regularly impacted by movements of certain wildlife populations. We propose that a machine learning model could be used in coordination with motion-activated camera traps to identify movements of certain wildlife populations and understand when these populations might pose a risk to these communities[[2]](https://doi.org/10.1038/sdata.2015.26).
 
 ### Problem Definition
 
 1. Facilitate foreign conservation groups identifying animals.
 
-2. Problems with animal conservation[3](https://wedocs.unep.org/bitstream/handle/20.500.11822/22864/WLWL_Report_web.pdf):
+2. Problems with animal conservation[[3]](https://wedocs.unep.org/bitstream/handle/20.500.11822/22864/WLWL_Report_web.pdf):
    - Human disturbance on habitat and environment
    - Conflict with community and wildlife:
      - Elephants interfere with crops, community harms elephants
@@ -21,8 +21,8 @@ Many communites in Africa are regularly impacted by movements of certain wildlif
 
 ### Methods
 
-The main approach is object detection applied to wildlife images[1](http://www.eng.auburn.edu/~troppel/internal/sparc/TourBot/TourBot%20References/Haar/2000186.pdf). The project plan to use datasets including 1500-image Kaggle data set from Google search[4](https://www.kaggle.com/biancaferreira/african-wildlife) and a research dataset from camera traps[2](https://doi.org/10.1038/sdata.2015.26). The Kaggle dataset is pre-labeled with corresponding animal type and coordinates which means it is ready to be trained with supervised learning. The supervised learning algorithm deep neural network with frameworks such as VGG and pre-trained Darknet YOLO v4 model will be implemented and parameters will be adjusted based on features and performance. The research dataset likely requires a prior step like classification algorithm such as KMeans for localizing and segmenting animals from the images and then cluster similar animals together. Because of the visual similarity of animals, colour, patterns and size are all relevant useful features. Therefore, images will be pre-processed to extract features all of them and convert to a consistent format.
-![][./images/image1.png]
+The main approach is object detection applied to wildlife images[[1]](http://www.eng.auburn.edu/~troppel/internal/sparc/TourBot/TourBot%20References/Haar/2000186.pdf). The project plan to use datasets including 1500-image Kaggle data set from Google search[[4]](https://www.kaggle.com/biancaferreira/african-wildlife) and a research dataset from camera traps[[2]](https://doi.org/10.1038/sdata.2015.26). The Kaggle dataset is pre-labeled with corresponding animal type and coordinates which means it is ready to be trained with supervised learning. The supervised learning algorithm deep neural network with frameworks such as VGG and pre-trained Darknet YOLO v4 model will be implemented and parameters will be adjusted based on features and performance. The research dataset likely requires a prior step like classification algorithm such as KMeans for localizing and segmenting animals from the images and then cluster similar animals together. Because of the visual similarity of animals, colour, patterns and size are all relevant useful features. Therefore, images will be pre-processed to extract features all of them and convert to a consistent format.
+![](./images/image1.png)
 
 ### Potential Results
 
