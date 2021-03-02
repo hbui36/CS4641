@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Many communites in Africa are regularly impacted by movements of certain wildlife populations. We propose that a machine learning model could be used in coordination with motion-activated camera traps to identify movements of certain wildlife populations and understand when these populations might pose a risk to these communities[[2]](https://doi.org/10.1038/sdata.2015.26).
+Many communities in Africa are regularly impacted by movements of certain wildlife populations. We propose that a machine learning model could be used in coordination with motion-activated camera traps to identify movements of certain wildlife populations and understand when these populations might pose a risk to these communities[[2]](https://doi.org/10.1038/sdata.2015.26).
 
 ### Problem Definition
 
